@@ -23,7 +23,7 @@ void setup() {
 void loop() {
   if(kbd.isConnected() && state) {
     kbd.write(KEY_RETURN);
-    delay(1);
+    //delay(1);
   }
   btn.loop();
 }
